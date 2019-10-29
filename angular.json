@@ -123,8 +123,13 @@
               "devServerTarget": "universe-lk:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "universe-lk"
 }
